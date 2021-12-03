@@ -12,20 +12,25 @@ public class Cat {
         this.age = age;
     }
 
-    public Cat getAddress(){
-        return this;
-    }
+    public String getStringAttributes(String flag){
 
-    public String getName() {
-        return name;
-    }
+        switch (flag) {
+            case "#name":
+                return name;
+                
+            case "#color":
+                return furColor;
+               
 
-    public void setName(String name) {
-       this.name = name; 
-    }
+        
+            default:
+            return "#!?";
+               
+        }
 
-    public String getFurColor() {
-        return furColor;
+
+        
+        
     }
 
     public int getAge() {
