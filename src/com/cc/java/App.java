@@ -10,6 +10,9 @@ public class App {
         output("Fellfarbe: " + cat1.getStringAttributes("#color"));
 
         output("Alter: " + cat1.getAge());
+        output("Alter: " + cat1.getAge());
+        output("Alter: " + cat1.getAge());
+        output("Alter: " + cat1.getAge());
 
         output("------------------------");
 
