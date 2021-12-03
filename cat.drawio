@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T09:29:42.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6Mk-qOvUPkdL_3ekzM8g" version="15.5.2" type="github"><diagram id="6PwjbmQvfFYdugo-1qz7" name="Cat">zVZLk9MwDP41mYFDmTZps3Bs+mAZFjj0AOyFcRslMePEwVXadH89dqy8WrrbZWahlyT6JEufZMWy483S8r1iefJJhiAcdxiWjjd3XHfkemP9MsjBIhPPt0CseEhGLbDiD0DgkNCCh7DtGaKUAnneBzcyy2CDPYwpJfd9s0iKftScxXACrDZMnKJfeYiJRd+6Ny1+CzxO6sgj/53VpKw2pky2CQvlvgN5C8ebKSnRfqXlDIQpXl0Xu255RtsQU5DhJQvu+Jd7+HH/EVEy/2G7jNcfNoOJ9bJjoqCEHdcX2l+QG8p4oDr4vwrDM0iZinnmeFOtHealfmqwytbgA5S51Y07OoQSB0zwmNZtNGFQrU/9FdO7iryugRnDGtNprY/tNJYfY4kytOsuqiOMzgf7qzQFRNjJ89j3QCsyloI1WaHiWfwY6ZfiEBVqJoVUf+KxVpeU86WYVT+dseAZXv12Oq6xjQGnYahgu3312hr32/Of1K6h8lm3V83jWja2IbekvrtagtO4KV6nAf83sS1tqy0X8dtJfX5fSNDtUXN3oJDrSTa1R++8OpwDOojnllIgtVUkqrkUcT0vvCCSGdIcHrkkL1nKhZngtyB2YLyanxNTYYya2CYglGfH06gZevq2ADIFVAdtQgs8n+YkXRS8Mcn7duyObghLuiO3BhmN+rjx3U5D/UED8RnD0T8pKYT6ckCiVJjIWGZMLFo0ULLIQjBeTQe0NnfSVL8q1k9APFCFWYGyX0ooOX4zy99MSPre0cxL8lwJBxIsT0Pu8eLrXGShNvD0hQB13wI+ZXe6mQoEQ77r83jGxmixvRFVus690lv8Bg==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="6PwjbmQvfFYdugo-1qz7" name="Cat_old">
+        <mxGraphModel dx="1118" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="LiOZe_ZKttoa6zsFgbIc-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAddress(): Cat&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getName(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getFurColor(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setName(String): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="340" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="LiOZe_ZKttoa6zsFgbIc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LiOZe_ZKttoa6zsFgbIc-5" target="LiOZe_ZKttoa6zsFgbIc-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Cat_new" id="idBMF7D-OUiN_HuAEAyX">
+        <mxGraphModel dx="639" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="CHfQi8HUvLaO7cmk8laP-0"/>
+                <mxCell id="CHfQi8HUvLaO7cmk8laP-1" parent="CHfQi8HUvLaO7cmk8laP-0"/>
+                <mxCell id="CHfQi8HUvLaO7cmk8laP-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- isFemale: boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- counter: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getStringAttributes(String): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getFurColor(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setName(String): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="CHfQi8HUvLaO7cmk8laP-1">
+                    <mxGeometry x="360" y="350" width="240" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="CHfQi8HUvLaO7cmk8laP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CHfQi8HUvLaO7cmk8laP-1" source="CHfQi8HUvLaO7cmk8laP-2" target="CHfQi8HUvLaO7cmk8laP-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
